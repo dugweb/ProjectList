@@ -68,6 +68,23 @@
 
 </div>
 
+<!-- jQuery, Underscore & Backbone libraries -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js" type="text/javascript"></script>
+
+<!-- Models & Views -->
+
+<!-- Initialize -->
+<script>
+	$(document).ready(function() {
+
+		console.log("doc ready");
+
+	});
+</script>
+
+
 
 
 </body>
