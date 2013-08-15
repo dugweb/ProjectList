@@ -117,11 +117,11 @@ button#Decimal {
 
 
 	background: #ed4741; /* Old browsers */
-background: -moz-linear-gradient(top, #ed4741 0%, #ffffff 6%, #ffffff 13%, #f6b2ad 14%, #ed4741 49%, #fbbcbb 82%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ed4741), color-stop(6%,#ffffff), color-stop(13%,#ffffff), color-stop(14%,#f6b2ad), color-stop(49%,#ed4741), color-stop(82%,#fbbcbb)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, #ed4741 0%,#ffffff 6%,#ffffff 13%,#f6b2ad 14%,#ed4741 49%,#fbbcbb 82%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, #ed4741 0%,#ffffff 6%,#ffffff 13%,#f6b2ad 14%,#ed4741 49%,#fbbcbb 82%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, #ed4741 0%,#ffffff 6%,#ffffff 13%,#f6b2ad 14%,#ed4741 49%,#fbbcbb 82%); /* IE10+ */
-background: linear-gradient(to bottom, #ed4741 0%,#ffffff 6%,#ffffff 13%,#f6b2ad 14%,#ed4741 49%,#fbbcbb 82%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed4741', endColorstr='#fbbcbb',GradientType=0 ); /* IE6-9 */	
+	background: -moz-linear-gradient(top, #ed4741 0%, #ffffff 6%, #ffffff 13%, #f6b2ad 14%, #ed4741 49%, #fbbcbb 82%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ed4741), color-stop(6%,#ffffff), color-stop(13%,#ffffff), color-stop(14%,#f6b2ad), color-stop(49%,#ed4741), color-stop(82%,#fbbcbb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ed4741 0%,#ffffff 6%,#ffffff 13%,#f6b2ad 14%,#ed4741 49%,#fbbcbb 82%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ed4741 0%,#ffffff 6%,#ffffff 13%,#f6b2ad 14%,#ed4741 49%,#fbbcbb 82%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ed4741 0%,#ffffff 6%,#ffffff 13%,#f6b2ad 14%,#ed4741 49%,#fbbcbb 82%); /* IE10+ */
+	background: linear-gradient(to bottom, #ed4741 0%,#ffffff 6%,#ffffff 13%,#f6b2ad 14%,#ed4741 49%,#fbbcbb 82%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed4741', endColorstr='#fbbcbb',GradientType=0 ); /* IE6-9 */	
 }
