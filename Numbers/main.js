@@ -9,7 +9,7 @@ function initCalc() {
 	app.views.calcView = new calcDisplayView({
 		model: app.models.calc,
 		el: '#output',
-		template: "#calcDisplay"
+		templatesrc: "#calcDisplay"
 	});
 	// app.views.calcView.render();
 	console.log(app.views.calcView);

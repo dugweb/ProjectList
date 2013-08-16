@@ -74,7 +74,9 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js" type="text/javascript"></script>
 
 <!-- Templates -->
-<script src="template.js" type="text/template" id="calcDisplay"></script>
+<script type="text/template" id="calcDisplay">
+<%= output %>
+</script>
 
 <!-- Models & Views -->
 <script src="calcModel.js" type="text/javascript"></script>

@@ -3,13 +3,14 @@
  | -----------------------------------------
 */
 var calcDisplayView = Backbone.View.extend({
-	tagname: "p",
-	classname: "output",
+	tagName: "li",
+	className: "output",
 	template: "",
 
 	initialize: function() {
 		this.listenTo(this.model, "change", this.render);
-		this.template = _.template( $(this.options.template).html() );
+		this.template = _.template( $(this.options.templatesrc).html() );
+		console.log($(this.options.templatesrc));
 	},
 
 	render: function() {
