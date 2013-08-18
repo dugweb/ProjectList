@@ -11,7 +11,7 @@ function initCalc() {
 		el: '#output',
 		templatesrc: "#calcDisplay"
 	});
-	// app.views.calcView.render();
+	app.views.calcView.render();
 	console.log(app.views.calcView);
 	
 }
