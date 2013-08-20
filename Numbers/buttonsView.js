@@ -1,3 +1,7 @@
+/* -----------------------------------------
+ | CalcButtons
+ | -----------------------------------------
+*/
 var CalcButtons = Backbone.View.extend({
 
 	buttons: "",
@@ -21,7 +25,22 @@ var CalcButtons = Backbone.View.extend({
 
 	keyDownHandler: function(e) {
 		e.preventDefault();
-		this.model.set({output: e.target.id});
-	}
 
+		var pressed = e.target.id;
+		console.log("Pressed: " + pressed);
+		if (this.model.operations.indexOf(pressed) > -1) {
+			this.model.pushStack(pressed);	
+		} else if (pressed == "Enter") {
+			this.model.pushStack();	
+			this.model.calculate();
+		} else if (this.model.functions.indexOf(pressed) > -1) {
+			console.log("function pressed");
+		} else {
+			this.model.numberPressed(pressed);
+			
+		}
+		
+
+
+	}
 });
