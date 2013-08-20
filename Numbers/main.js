@@ -7,11 +7,16 @@ function initCalc() {
 
 	app.models.calc = new calcModel();
 	app.views.calcView = new calcDisplayView({
-		model: app.models.calc,
+		model: app.models.calc,	
 		el: '#output',
 		templatesrc: "#calcDisplay"
 	});
+
+	app.views.calcButtons = new CalcButtons({
+		model: app.models.calc,
+		el: '#buttons'
+	});
+
 	app.views.calcView.render();
-	console.log(app.views.calcView);
 	
 }

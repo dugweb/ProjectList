@@ -10,7 +10,6 @@ var calcDisplayView = Backbone.View.extend({
 	initialize: function() {
 		this.listenTo(this.model, "change", this.render);
 		this.template = _.template( $(this.options.templatesrc).html() );
-		console.log($(this.options.templatesrc));
 	},
 
 	render: function() {

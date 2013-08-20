@@ -78,12 +78,15 @@
 <%= output %>
 </script>
 
-<!-- Models & Views -->
+<!-- Models -->
 <script src="calcModel.js" type="text/javascript"></script>
+
+<!-- Views -->
 <script src="calcDisplayView.js" type="text/javascript"></script>
-<script src="main.js" type="text/javascript"></script>
+<script src="buttonsView.js" type="text/javascript"></script>
 
 <!-- Initialize -->
+<script src="main.js" type="text/javascript"></script>
 <script>
 
 document.addEventListener("DOMContentLoaded", initCalc);
